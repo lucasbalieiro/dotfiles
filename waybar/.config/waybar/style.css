@@ -55,6 +55,7 @@ button:hover {
 }
 
 #pulseaudio,
+#bluetooth,
 #clock,
 #battery,
 #cpu,
@@ -86,10 +87,13 @@ button:hover {
 }
 
 #pulseaudio {
+    color: @rosewater;
+    border-bottom: 2px solid @rosewater;
+}
+#bluetooth {
     color: @blue;
     border-bottom: 2px solid @blue;
 }
-
 #network {
     color: @yellow;
     border-bottom: 2px solid @yellow;

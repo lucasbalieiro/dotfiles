@@ -39,10 +39,14 @@
   },
   "bluetooth": {
     "format": "<b>󰂳</b>",
-    "format-connected": "<b>󰂯 {device_alias}</b>",
+    "format-connected": "<b>󰂯</b>",
     "format-disabled": "<b>󰂲</b>",
     "interval": 30,
-    "on-click" : "bluetoothctl",
-    "tooltip": false,
-    }
+    "on-click" : "blueman-manager",
+    "tooltip": true,
+    "tooltip-format": "Don't know what is happening",
+    "tooltip-format-disabled":"Bluetooth off",
+    "tooltip-format-on" : "Bluetooth on",
+    "tooltip-format-connected": "Connected to {device_alias}"
+   }
 }
